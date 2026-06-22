@@ -7,7 +7,7 @@ from pathlib import Path
 from EQTransformer.core.mseed_predictor import mseed_predictor
 
 mseed_predictor(input_dir='/home/wsl-ubuntu/event_windows_mseed/event_0002_20240214T075313_M4.0',
-                input_model='EqT_original_model.h5',
+                input_model='/home/wsl-ubuntu/EqT_original_model.h5',
                 stations_json='station_list.json',
                 output_dir='detection_results',
                 detection_threshold=0.2,
